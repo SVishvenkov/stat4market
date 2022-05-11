@@ -1,0 +1,47 @@
+.sprite {
+  background-image: url(/images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.sprite-log {
+  width: 20px;
+  height: 21px;
+  background-position: 0 0;
+}
+
+.sprite-menu {
+  width: 13px;
+  height: 12px;
+  background-position: -20px 0;
+}
+
+.sprite-money {
+  width: 48px;
+  height: 49px;
+  background-position: -31px 0;
+}
+
+.sprite-teach1 {
+  width: 39px;
+  height: 39px;
+  background-position: 0 -49px;
+}
+
+.sprite-teach3 {
+  width: 38px;
+  height: 39px;
+  background-position: -39px -49px;
+}
+
+.sprite-teach4 {
+  width: 39px;
+  height: 39px;
+  background-position: -79px 0;
+}
+
+.sprite-tel {
+  width: 17px;
+  height: 17px;
+  background-position: -79px -39px;
+}

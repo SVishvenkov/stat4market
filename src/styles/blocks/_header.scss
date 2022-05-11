@@ -1,0 +1,166 @@
+.header {
+  padding-top: 36px;
+  padding-bottom: 66px;
+
+  @media (max-width: $desktop-max) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media (max-width: $tablet-max) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media (max-width: $mobile-max) {
+    padding-top: 15px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.header-inner {
+  @include inner;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  @media (max-width: $tablet-max) {
+    justify-content: space-between;
+  }
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  width: 33.32%;
+  padding-right: 28px;
+
+  @media (max-width: $tablet-max) {
+    width: 49.98%;
+  }
+
+  @media (max-width: $mobile-max) {
+    width: 50%;
+    justify-content: space-between;
+  }
+}
+
+.sprite-log {
+  margin-right: 14px;
+}
+
+.header-logo {
+  padding-right: 15px;
+}
+
+.header-title-text {
+  border-left: 1px solid $color-black;
+}
+
+.header-text {
+  padding-left: 19px;
+  color: $color-text;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+
+  @media (max-width: $mobile-max) {
+    display: none;
+  }
+}
+
+.header-links {
+  width: 49.98%;
+
+  @media (max-width: $tablet-max) {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 0;
+    justify-content: center;
+  }
+}
+
+.header-but {
+  border: none;
+  background-color: #fafafa;
+
+  @media (max-width: $mobile-max) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+
+}
+
+.header-links-menu {
+  padding-right: 40px;
+}
+
+.header-lin {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+
+  &:hover {
+    background-color: $color-accent;
+    color: #fafafa;
+    border-radius: 12px;
+  }
+}
+
+.header-number {
+  padding-left: 134px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: $color-text;
+  white-space: nowrap;
+
+  &:hover {
+    color: $color-accent;
+  }
+}
+
+.header-log {
+  width: 16.66%;
+
+  @media (max-width: $mobile-max) {
+    width: 50%;
+  }
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+  padding: 4px 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  margin: auto;
+  color: #fff;
+  background-color: $color-accent;
+  border-radius: 12px;
+
+  &:hover {
+    background-color: #fafafa;
+    color: $color-accent
+  }
+}
+
+.header-log-img {
+  display: block;
+  padding-right: 14px;
+}
+
+.burger {
+  background-color: #fafafa;
+  border: none;
+  display: none;
+  @media (max-width: $tablet-max) {
+    display: block;
+  }
+}

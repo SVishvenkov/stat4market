@@ -1,0 +1,122 @@
+.promo {
+  @media (max-width: $desktop-max) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media (max-width: $tablet-max) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.promo-inner {
+  @include inner;
+}
+
+.promo-begin {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: $color-black;
+}
+
+.promo-wrap {
+  display: flex;
+}
+
+.promo-info {
+  padding-right: 31px;
+
+  @media (max-width: $tablet-max) {
+    width: 66.64%;
+    padding-right: 26px;
+  }
+
+  @media (max-width: $mobile-max) {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+.promo-title {
+  padding-top: 15px;
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 65px;
+  color: $color-heading;
+
+  @media (max-width: $mobile-max) {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 150%;
+  }
+}
+
+.promo-title-accent {
+  color: $color-accent;
+}
+
+.promo-price-money {
+  display: flex;
+  align-items: center;
+}
+
+.promo-price {
+  padding-left: 25px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  color: $color-text;
+}
+
+.promo-price-accent {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 55px;
+  color: $color-accent;
+}
+
+.promo-text {
+  @include subtitle;
+  padding-top: 40px;
+  padding-bottom: 77px;
+
+  @media (max-width: $mobile-max) {
+    padding-bottom: 85px;
+  }
+}
+
+.promo-visual {
+  position: relative;
+  bottom: 169px;
+
+  @media (max-width: $tablet-max) {
+    width: 33.33%;
+    bottom: 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    display: none;
+  }
+}
+
+.promo-bcg {
+  width: 458px;
+  height: 416px;
+  position: relative;
+  padding-top: 42px;
+}
+
+.promo-superman {
+  width: 435px;
+  height: 435px;
+  position: absolute;
+  left: 23px;
+  bottom: 23px;
+}
+
+// .promo-visual-superman {
+//   overflow: hidden;
+// }
